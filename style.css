@@ -1,35 +1,51 @@
+:root {
+  --hutgreen: #AEC4BC;
+  --hutgreendark: #8CA59B;
+  --hutgreenlight: #BACCC6;
+  --hutred: #BA324D;
+  --doorpink: #F967BC;
+  --doorpinkdark: #F04FAC;
+  --darkgrey: #494849;
+  --lockgrey: #B6B4C1;
+  --lockgreylight: #CFCED8;
+}
+
+body {
+  margin: 0;
+}
+
 .st0 {
-  fill:#BA324D;
+  fill: var(--hutred);
 }
 
 .st1 {
-  fill:#AEC4BC;
+  fill: var(--hutgreen);
 }
 
 .st2 {
-  fill:#BACCC6;
+  fill: var(--hutgreenlight);
 }
 
 .st3 {
-  fill:#8CA59B;
+  fill: var(--hutgreendark);
 }
 
 .st4 {
-  fill:#F967BC;
+  fill: var(--doorpink);
 }
 
 .st5 {
-  fill:#F04FAC;
+  fill: var(--doorpinkdark);
 }
 
 .st6 {
-  fill:#494849;
+  fill: var(--darkgrey);
 }
 
 .st7 {
-  fill:#B6B4C1;
+  fill: var(--lockgrey);
 }
 
 .st8 {
-  fill:#CFCED8;
+  fill: var(--lockgreylight);
 }
