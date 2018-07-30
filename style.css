@@ -15,9 +15,20 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  padding: 20px;
+  text-align: center;
+  border: 1px dashed orange;
+}
+
+.container-hut {
+  padding: 20px;
+  border: 1px dashed blue;
 }
 
 svg {
