@@ -53,7 +53,7 @@ body {
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   border: 3px dashed lightgreen;
   /* height: 400px; */
 }
@@ -62,26 +62,37 @@ main {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto auto;
-  padding: 20px;
+  padding: 20px 0;
   margin: 0 10px 0 20px;
-  justify-content: center;
+  /* justify-content: center; */
   border: 1px dashed orange;
-  /* height: 250px; */
 }
 
 .title {
   grid-column: span 2;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  transform: rotate(-8deg);
 }
 
 .subtitle {
   grid-column: span 2;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+#color-input {
+  min-width: 150px;
+  margin: 0 7px 0 14px;
 }
 
 button {
   width: fit-content;
+  /* min-width: 105px; */
   padding: 5px 7px;
+  margin: 0 14px 0 7px;
 }
 
 .container-hut {
